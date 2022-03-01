@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        /* table, th, td {
+            border: 1px solid;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+        th, td {
+            background-color: bisque;
+        } */
+
+        /* second option  th, td {
+            border-style: dotted;
+        } */
+        /* 3th option table {
+            width: 100%;
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid;
+            border-collapse: collapse;
+        } */
+        /* option 4 and 5 table {
+        width: 100%;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 15px;
+      }
+      th {
+        text-align: left;
+      } */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: plum;
+      }
+      tr:nth-child(odd) {
+        background-color: purple;
+      }
+      td:nth-child(even),
+      th:nth-child(odd) {
+          background-color: red;
+      }
+      tr:hover {
+          background-color: aqua;
+      }
+    </style>
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+      <table>
+          <!--option 1 to 3 <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+          </tr>
+          <tr>
+              <td style="height: 200px;">DCI</td>
+              <td>Berlin</td>
+              <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Netto</td>
+            <td>Amsterdam</td>
+            <td>Holland</td>
+      </tr>
+      <tr>
+        <td>Microsoft</td>
+        <td>LA</td>
+        <td>USA</td>
+  </tr> -->
+  <!--4th option  <tr>
+      <th>First Name</th>
+      <td>Dilshod</td>
+      <td>Bob</td>
+  </tr>
+  <tr>
+      <th>Last Name</th>
+      <td>Rahmatov</td>
+      <td>Smith</td>
+  </tr>
+  <tr>
+      <th>Age</th>
+      <td>18</td>
+      <td>90</td>
+  </tr> -->
+  <!-- option 5 <caption>Table 1. I am a caption</caption>
+    <tr>
+      <th colspan="2">Name</th>
+      <th colspan="3">Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+      <td>45</td>
+      <td>40</td>
+    </tr> -->
+    <!-- option 5 <tr>
+        <th>First name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Bob</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Tom</td>
+        <td>Tommy</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>130</td>
+    </tr> -->
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+      </tr>
+      </table>
+  </body>
+</html>
