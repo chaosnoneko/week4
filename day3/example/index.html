@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <legend>User Info</legend>
+        <div>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            placeholder="Give your name ..."
+            name="name"
+            required
+            id="name"
+          />
+        </div>
+        <div>
+          <label for="last_name">Last name</label>
+          <input type="text" id="last_name" maxlength="4" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+        </div>
+        <div>
+          <label for="number">Age</label>
+          <input type="number" id="number" min="1" max="200" step="5" />
+        </div>
+
+        <div>
+          <label for="date">Birthdate</label>
+          <input type="date" id="date" />
+        </div>
+      </fieldset>
+
+      <div>
+        Food
+        <div>
+          <label for="banana">Banana</label>
+          <input type="checkbox" name="apple" id="banana" />
+        </div>
+        <div>
+          <label for="apple">Apple</label>
+          <input type="checkbox" name="apple" id="apple" />
+        </div>
+      </div>
+
+      <div>
+        Which food do you like! Select only one!
+        <div>
+          <label for="male">Banana</label>
+          <input type="radio" name="joseph" id="male" />
+        </div>
+        <div>
+          <label for="female">Apple</label>
+          <input type="radio" name="joseph" id="female" />
+        </div>
+      </div>
+
+      <div>
+        <label for="eyeColor">Eye Color</label>
+        <select name="eyeColor" id="eyeColor">
+          <option value="Green">Green</option>
+          <option value="Red" label="Red" selected></option>
+        </select>
+      </div>
+
+      <div>
+        <label for="bio">Bio</label>
+        <textarea name="bio" id="bio"></textarea>
+      </div>
+
+      <div>
+        <input type="hidden" name="hidden" value="DCI" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+
+      <div>
+        <label for="file">File</label>
+        <input type="file" name="file" id="file" />
+      </div>
+
+      <div>
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color" />
+      </div>
+      <div>
+        <label for="search">Search</label>
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="Search ..."
+        />
+      </div>
+
+      <div>
+        <label for="car">Car</label>
+        <input type="text" name="car" id="car" />
+      </div>
+
+      <button type="submit">Send</button>
+      <button type="reset">Clear</button>
+    </form>
+  </body>
+</html>
+
