@@ -1,0 +1,19 @@
+
+.nav-item, .media-links {
+    list-style: none;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+i {
+    font-size: 30px;
+}
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 3px purple;
+}
+h4 {
+    text-align: center;
+}

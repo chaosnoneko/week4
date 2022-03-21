@@ -1,0 +1,10 @@
+body {
+    width: 100%;
+} 
+table, td, th {
+    border: 1px solid;
+}
+img {
+    width: 150px;
+    height: 100px;
+}

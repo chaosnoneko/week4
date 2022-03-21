@@ -1,0 +1,31 @@
+body {
+    background: url("./background.jpg");
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: underline green;
+    margin-top: 200px;
+    font-size: 100px;
+}
+i {
+    color: aliceblue;
+}
+div {
+    text-align: center;
+    text-decoration: underline green;
+    font-size: 50px;
+}
+input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    font-size: 50px;
+    text-decoration: underline green;
+}
+button {
+    font-size: 40px;
+    border-color: green;
+    background-color: rgba(0, 0, 0, 0);
+}
